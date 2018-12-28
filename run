@@ -1,0 +1,9 @@
+#!/bin/sh
+set -euf
+set -a
+. .env.defaults
+. .env
+set +a
+npm install
+pid=$(lsof -t -i:$PORT) && kill $pid
+nohup node app.js &

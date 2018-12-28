@@ -1,0 +1,18 @@
+{
+  "name": "now",
+  "description": "Show the datetime now in our preferred ISO format",
+  "version": "1.0.0",
+  "author": "Joel Parker Henderson (joel@joelparkerhenderson.com)",
+  "license": "ISC",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sixarm/sixarm_node_express_now"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
